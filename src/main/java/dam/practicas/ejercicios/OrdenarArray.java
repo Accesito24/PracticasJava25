@@ -27,7 +27,7 @@ public class OrdenarArray {
             }
             //Recursos.mostrarArray(arr);
         }
-        System.out.println("Fianlmente queda asi");
+        System.out.println("Finalmente queda asi");
         Recursos.mostrarArray(arr);
         escaner.close();
     }
