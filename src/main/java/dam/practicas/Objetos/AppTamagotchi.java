@@ -1,4 +1,5 @@
-package dam.practicas.ejercicios;
+package dam.practicas.Objetos;
+
 import java.util.Scanner;
 
 public class AppTamagotchi {

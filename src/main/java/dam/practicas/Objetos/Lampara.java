@@ -1,4 +1,4 @@
-package dam.practicas.ejercicios;
+package dam.practicas.Objetos;
 
 public class Lampara {
     String color;
