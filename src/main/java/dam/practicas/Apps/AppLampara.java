@@ -1,4 +1,4 @@
-package dam.practicas.Objetos;
+package dam.practicas.Apps;
 
 public class AppLampara {
     public static void main(String[] args) {
