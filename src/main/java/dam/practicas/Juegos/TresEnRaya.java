@@ -1,4 +1,4 @@
-package dam.practicas.Objetos;
+package dam.practicas.Juegos;
 
 import java.util.Arrays;
 import java.util.Scanner;

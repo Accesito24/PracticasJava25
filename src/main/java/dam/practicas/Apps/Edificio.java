@@ -1,4 +1,4 @@
-package dam.practicas.Objetos;
+package dam.practicas.Apps;
 
 public class Edificio {
 

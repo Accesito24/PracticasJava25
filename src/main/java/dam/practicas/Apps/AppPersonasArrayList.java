@@ -1,4 +1,6 @@
-package dam.practicas.ArrayList;
+package dam.practicas.Apps;
+
+import dam.practicas.ArrayList.Persona;
 
 import java.util.ArrayList;
 import java.util.Scanner;
