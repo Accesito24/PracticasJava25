@@ -1,6 +1,6 @@
 package dam.practicas.laboratorios;
 
-public class jugador {
+public class Jugador {
 
     private static int numeroJugadores = 0;
     private static int puntuacionMaxima = 0;
