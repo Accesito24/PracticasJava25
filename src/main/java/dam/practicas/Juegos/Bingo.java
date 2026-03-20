@@ -1,8 +1,7 @@
 package dam.practicas.Juegos;
 
 import java.util.Scanner;
-
-import utilidades.Recursos;
+import dam.practicas.utilidades.Recursos;
 
 public class Bingo {
 
