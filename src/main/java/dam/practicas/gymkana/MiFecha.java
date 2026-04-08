@@ -6,6 +6,7 @@ import java.time.format.TextStyle;
 import java.util.Locale;
 import java.time.Period;
 
+
 public class MiFecha {
     public static void main(String[] args) {
 
@@ -19,8 +20,13 @@ public class MiFecha {
         System.out.print("\n");
         System.out.println("Mes: " + fechaNacimiento.getMonth().getDisplayName(TextStyle.FULL, idioma).toUpperCase());
         System.out.println("Dia: " + fechaNacimiento.getDayOfWeek().getDisplayName(TextStyle.FULL, idioma).toUpperCase());
-    }
-    public class MiEdad {
+
+
+        //==============================================================================================================
+        //MI EDAD
+        //==============================================================================================================
+
+        System.out.println("============================================================================================");
 
     }
 }
