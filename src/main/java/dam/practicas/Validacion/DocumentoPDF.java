@@ -1,18 +1,17 @@
 package dam.practicas.Validacion;
 
-public class DocumentoPDF extends Documento{
+public class DocumentoPDF extends Documento {
 
-    public DocumentoPDF (long size){
-        super (size);
+    public DocumentoPDF(long size) {
+        super(size);
     }
 
     @Override
     public boolean isValid() {
-        return getSize() < 1048576;
-    }
+        if (getSize() < 1048576) {
+            return true;
+        }
+        return false;
 
-    @Override
-    public String obtenerErrores() {
-        return "Tamaño Invalido";
+        }
     }
-}

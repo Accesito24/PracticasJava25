@@ -1,9 +1,9 @@
 package dam.practicas.Validacion;
 
-public abstract class Imagen implements ArchivosMultimedia.Validable {
+public abstract class Imagen implements Validable {
 
-    int width;
-    int height;
+    private int width;
+    private int height;
 
     public Imagen(int width, int height) {
         this.width = width;
@@ -15,7 +15,4 @@ public abstract class Imagen implements ArchivosMultimedia.Validable {
 
     public void setWidth(int width) { this.width = width; }
     public void setHeight(int height) { this.height = height; }
-
-
-
 }

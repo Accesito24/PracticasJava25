@@ -1,6 +1,6 @@
 package dam.practicas.Validacion;
 
-public  abstract class Documento implements ArchivosMultimedia.Validable {
+public  abstract class Documento implements Validable {
 
     private long size;
 

@@ -1,6 +1,6 @@
 package dam.practicas.Validacion;
 
-public abstract class Video implements ArchivosMultimedia.Validable {
+public abstract class Video implements Validable {
     int length;
 
     public Video(int length) {
