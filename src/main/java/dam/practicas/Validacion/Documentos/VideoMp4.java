@@ -1,4 +1,4 @@
-package dam.practicas.Validacion;
+package dam.practicas.Validacion.Documentos;
 
 public class VideoMp4 extends Video {
 

@@ -1,4 +1,4 @@
-import dam.practicas.Validacion.*;
+package dam.practicas.Validacion.Documentos;
 
 public class Main {
     public static void main(String[] args) {
