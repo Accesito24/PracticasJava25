@@ -1,4 +1,4 @@
-package dam.practicas.examen;
+package dam.practicas.examen.examen1;
 
 import java.util.Scanner;
 
