@@ -46,4 +46,4 @@ public class AppTamagotchi {
 
         }while(menu!=0);
     }
-}
+} 

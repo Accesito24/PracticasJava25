@@ -48,4 +48,4 @@ public class NumerosPerfectos {
         System.out.println("\n--- Análisis completado ---");
     }
 
-}
+} 

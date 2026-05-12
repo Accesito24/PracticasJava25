@@ -6,3 +6,4 @@ public abstract class Personal extends Persona {
         super(dni, nombreCompleto);
     }
 }
+ 

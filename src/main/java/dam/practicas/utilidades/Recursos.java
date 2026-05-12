@@ -36,4 +36,4 @@ public class Recursos {
             arr[i]= numAleatorio(max);
         }
     }
-}
+} 

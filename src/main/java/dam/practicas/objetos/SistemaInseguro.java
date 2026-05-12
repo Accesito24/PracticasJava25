@@ -6,3 +6,4 @@ public class SistemaInseguro {
     private String titular = "Ada Lovelace";
     private double saldo = 100.0;
 }
+ 

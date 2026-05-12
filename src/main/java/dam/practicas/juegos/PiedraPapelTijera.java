@@ -53,4 +53,4 @@ public class PiedraPapelTijera {
         return eleccion;
     }
 
-}
+} 

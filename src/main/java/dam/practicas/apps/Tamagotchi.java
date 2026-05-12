@@ -72,4 +72,4 @@ public class Tamagotchi {
         this.energia = 100;  // Restaura la energía al máximo
         System.out.println(nombre + " ha dormido. Energia: " + energia);
     }
-}
+} 

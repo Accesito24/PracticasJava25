@@ -20,4 +20,4 @@ public class ErrorAritmetico {
 
         sc.close();
     }
-}
+} 

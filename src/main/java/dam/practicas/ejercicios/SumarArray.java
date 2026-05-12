@@ -19,4 +19,4 @@ public class SumarArray {
 
         leer.close(); // Cerrar el Scanner FUERA del bucle
     }
-}
+} 

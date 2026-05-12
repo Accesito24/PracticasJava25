@@ -25,3 +25,4 @@ public class Main {
         System.out.println("¿Lote 2 íntegro?: " + service2.validarTodo());
     }
 }
+ 

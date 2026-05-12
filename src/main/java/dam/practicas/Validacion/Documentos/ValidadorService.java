@@ -18,4 +18,4 @@ public class ValidadorService {
         // Adding a null check is always a good safety measure
         return fichero != null && fichero.isValid();
     }
-}
+} 

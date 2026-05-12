@@ -34,4 +34,4 @@ public class Main {
         instituto.mostrarAlumnoExcelente();
         instituto.mostrarAprobados(5.0);
     }
-}
+} 

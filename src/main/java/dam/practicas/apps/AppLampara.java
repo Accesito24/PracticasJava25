@@ -12,4 +12,4 @@ public class AppLampara {
         lamparaIkea.estado();
 
     }
-}
+} 

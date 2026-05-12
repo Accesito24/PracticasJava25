@@ -21,4 +21,4 @@ public class Superheroe {
             System.out.println("Soy " + nombre + ", mi poder es " + superPoder + " y no lleva capa");
         }
     }
-}
+} 

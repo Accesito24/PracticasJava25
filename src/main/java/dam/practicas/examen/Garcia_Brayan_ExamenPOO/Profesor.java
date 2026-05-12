@@ -17,4 +17,4 @@ public class Profesor extends Personal {
     public void presentarse() {
         System.out.println("Soy " + getNombreCompleto() + " con DNI: " + getDni() + " y mi especialidad es: " + especialidad);
     }
-}
+} 

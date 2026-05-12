@@ -30,4 +30,4 @@ public class CuantoPago {  // ← FINALMENTE la clase
 
     }
 
-}
+} 

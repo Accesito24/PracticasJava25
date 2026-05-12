@@ -24,4 +24,4 @@ public class EnteroErroneo {
         int entero = leerEntero();
         System.out.println(entero + " SÍ es un número entero.");
     }
-}
+} 

@@ -18,4 +18,4 @@ public class Administrativo extends Pas {
     public void presentarse() {
         System.out.println("Me llamo " + getNombreCompleto() + " con DNI: " + getDni() + " y mi zona es: " + getZonaTrabajo() + ". del puesto: " + puestoOficina);
     }
-}
+} 

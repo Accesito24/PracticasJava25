@@ -87,4 +87,4 @@ public class tiposStrings {
         String cambiado= f.replace(c1,c2);
         return cambiado;
     }
-}
+} 

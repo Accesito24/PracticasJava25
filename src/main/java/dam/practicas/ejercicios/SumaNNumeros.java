@@ -21,4 +21,4 @@ public class SumaNNumeros {
             System.out.println("El numero es positivo y la suma de los numeros es: " + suma);
         }
     }
-}
+} 

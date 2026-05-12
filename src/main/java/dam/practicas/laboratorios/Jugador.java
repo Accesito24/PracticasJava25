@@ -67,3 +67,4 @@ public class Jugador {
                 ", puntuacionActual=" + puntuacionActual + "]";
     }
 }
+ 

@@ -13,3 +13,4 @@ public abstract class Pas extends Personal {
         return zonaTrabajo;
     }
 }
+ 

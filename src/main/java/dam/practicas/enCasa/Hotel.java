@@ -11,4 +11,4 @@ public class Hotel {
         this.habitaciones = habitaciones;
     }
 
-}
+} 

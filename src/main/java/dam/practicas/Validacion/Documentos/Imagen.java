@@ -15,4 +15,4 @@ public abstract class Imagen implements Validable {
 
     public void setWidth(int width) { this.width = width; }
     public void setHeight(int height) { this.height = height; }
-}
+} 

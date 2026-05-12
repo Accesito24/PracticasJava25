@@ -18,3 +18,4 @@ public class PlanEstandar extends Suscripcion {
 
     }
 }
+ 

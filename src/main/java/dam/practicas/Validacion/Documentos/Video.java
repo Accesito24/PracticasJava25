@@ -12,3 +12,4 @@ public abstract class Video implements Validable {
     public void setLength(int length) { this.length = length; }
 
 }
+ 

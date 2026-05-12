@@ -18,3 +18,4 @@ public class ImagenJPG extends Imagen {
     }
 
 
+ 

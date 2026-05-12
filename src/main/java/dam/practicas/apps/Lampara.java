@@ -26,4 +26,4 @@ public class Lampara {
     public void apagar() {
         this.estaEncendida = false;
     }
-}
+} 

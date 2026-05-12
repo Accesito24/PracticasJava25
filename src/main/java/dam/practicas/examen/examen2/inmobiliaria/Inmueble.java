@@ -67,3 +67,4 @@ public abstract sealed class Inmueble permits Casa, LocalComercial {
 
 
 }
+ 

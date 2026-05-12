@@ -18,3 +18,4 @@ public class PersonalLimpieza extends Pas {
         System.out.println("Soy " + getNombreCompleto() + " con DNI: " + getDni() + " y mi zona es: " + getZonaTrabajo() + ". con turno: " + turno);
     }
 }
+ 
