@@ -1,4 +1,4 @@
-package dam.practicas.Juegos;
+package dam.practicas.juegos;
 
 import java.util.Scanner;
 import dam.practicas.utilidades.Recursos;

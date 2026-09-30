@@ -1,6 +1,7 @@
 package dam.practicas.Matriculas;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class AppGestionMatriculas {
@@ -9,14 +10,14 @@ public class AppGestionMatriculas {
     private static Scanner sc = new Scanner(System.in);
 
     public static void mostrarEstudiantes() {
-        for (Estudiante e : estudiantes ) {
-            System.out.println (e.getNumMatricula()+"-"+e.getNombre());
+        for (Estudiante e : estudiantes) {
+            System.out.println(e.getNumMatricula() + "-" + e.getNombre());
         }
     }
 
     public static void mostrarMaterias() {
-        for (Materia m : materias ) {
-            System.out.println (m.getCodigoMateria()+"-"+m.getNombre());
+        for (Materia m : materias) {
+            System.out.println(m.getCodigoMateria() + "-" + m.getNombre());
         }
     }
 
@@ -34,7 +35,7 @@ public class AppGestionMatriculas {
         estudiantes.add(estu);
     }
 
-    public static void matricularEstudiante(){
+    public static void matricularEstudiante() {
         System.out.println("Elige el código de un estudiante");
         mostrarEstudiantes();
         int codEstudiante = sc.nextInt();
@@ -45,10 +46,10 @@ public class AppGestionMatriculas {
         Estudiante estudiante = null;
         Materia materia = null;
 
-        //Limpiamos el buffer, para cuando leamos un String
+        // Limpiamos el buffer, para cuando leamos un String
         sc.nextLine();
 
-        //Buscamos el estudiante
+        // Buscamos el estudiante
         for (Estudiante e : estudiantes) {
             if (e.getNumMatricula() == codEstudiante) {
                 estudiante = e;
@@ -56,19 +57,22 @@ public class AppGestionMatriculas {
             }
         }
 
+        // Buscamos la materia
         for (Materia m : materias) {
             if (m.getCodigoMateria() == codMateria) {
-                //Aquí no cramos una copia del objeto, estamos copiando la referencia
-                //Por eso modifca el array
+                // Aquí no creamos una copia del objeto, estamos copiando la referencia
+                // Por eso modifica el array
                 materia = m;
+                break;
             }
         }
 
         if (estudiante != null && materia != null) {
             materia.matricularEstudiante(estudiante);
-            System.out.println("MAtriculado!!");
+            System.out.println("Matriculado!!");
+        } else {
+            System.out.println("No se ha encontrado el estudiante o la materia indicados.");
         }
-
     }
 
     public static void mostrarMatriculadosMateria() {
@@ -76,15 +80,22 @@ public class AppGestionMatriculas {
         mostrarMaterias();
         int codMateria = sc.nextInt();
 
+        boolean encontrada = false;
         for (Materia m : materias) {
             if (m.getCodigoMateria() == codMateria) {
                 System.out.println(m.getEstudiantes());
                 System.out.println("En total son: " + m.numeroEstudiantes());
+                encontrada = true;
+                break;
             }
+        }
+
+        if (!encontrada) {
+            System.out.println("No existe ninguna materia con ese código.");
         }
     }
 
-    public static void mostrarTotalMatriculados(){
+    public static void mostrarTotalMatriculados() {
         System.out.println("En total hay " + Materia.getNumeroMatriculas());
     }
 
@@ -104,8 +115,14 @@ public class AppGestionMatriculas {
             System.out.println("7-Ver número total de matriculados por materia");
             System.out.println("0-Salir");
 
-            System.out.println("¿qué eliges?");
-            opcion=sc.nextInt();
+            System.out.println("¿Qué eliges?");
+
+            // Validamos que se introduzca un número
+            while (!sc.hasNextInt()) {
+                System.out.println("Por favor, introduce un número válido.");
+                sc.next();
+            }
+            opcion = sc.nextInt();
             sc.nextLine();
 
             switch (opcion) {
@@ -129,14 +146,14 @@ public class AppGestionMatriculas {
                     break;
                 case 7:
                     mostrarMatriculadosMateria();
+                    break;
                 case 0:
                     System.out.println("Hasta luego!");
                     break;
                 default:
-                    System.out.println("Elige una opción valida");
-
+                    System.out.println("Elige una opción válida");
             }
-        }while(opcion!=0);
+        } while (opcion != 0);
 
     }
 }

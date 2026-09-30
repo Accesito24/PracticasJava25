@@ -1,5 +1,6 @@
 package dam.practicas.examen.examen3;
 
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
@@ -60,6 +61,8 @@ public class Taller {
 
             System.out.println("Informe generado correctamente: " + nombreFichero);
 
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
         } finally {
             if (pw != null) {
                 pw.close();
